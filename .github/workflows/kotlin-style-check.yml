@@ -1,0 +1,16 @@
+name: "Kotlin Style Check"
+on:
+  push:
+
+jobs:
+  ktlint:
+    name: Ktlint
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Ktlint
+        run: brew install ktlint
+
+      - name: Run Ktlint
+        run: ktlint --android --relative --reporter=plain?group_by_file --color --color-name="LIGHT_RED"
