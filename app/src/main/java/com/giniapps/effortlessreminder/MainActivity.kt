@@ -1,4 +1,4 @@
-package com.giniapps.effortless_reminder
+package com.giniapps.effortlessreminder
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
