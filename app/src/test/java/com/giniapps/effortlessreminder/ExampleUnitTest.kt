@@ -1,4 +1,4 @@
-package com.giniapps.effortlessreminder
+package com.medgausapps.effortlessreminder
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
